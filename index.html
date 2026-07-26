@@ -6,7 +6,7 @@
 
     <title>Mirza Arslan | Front-End Developer</title>
 
-    <link rel="icon" type="image/png" href=".gitignore/LOGO.png" />
+    <link rel="icon" type="image/png" href="Image/LOGO.png" />
     <meta
       name="description"
       content="Mirza Arslan — Front-End Developer & Computer Science Student. HTML, CSS, JavaScript, learning React."
@@ -28,7 +28,10 @@
     <!-- ========== NAVBAR ========== -->
     <header class="navbar" id="navbar">
       <div class="nav-inner">
-        <a href="#home" class="nav-logo">MA<span class="logo-dot">.</span></a>
+        <a href="#home" class="nav-logo">
+    <img src="Image/LOGO.png" alt="MA Logo" class="logo-img">
+    <!-- <span>MA<span class="logo-dot">.</span></span> -->
+        </a>
 
         <nav class="nav-links" id="navLinks">
           <a href="#home" class="nav-link active" data-nav>Home</a>
@@ -41,11 +44,12 @@
         </nav>
 
         <a
-          href=".gitignore/Mirza Arslan.pdf"
+          href="https://drive.google.com/file/d/1HqJalutxqDeGG9RhmZBdZ8oU_0C3a3Sj/view?usp=sharing"
           class="btn btn-small btn-primary nav-cta"
-          download
-          >Resume</a
+          target="_blank"
         >
+          Resume
+        </a>
 
         <button
           class="nav-toggle"
@@ -78,25 +82,25 @@
 
             <div class="hero-actions">
               <a href="#projects" class="btn btn-primary">View Projects</a>
-              <a
-                href=".gitignore/Mirza Arslan.pdf"
-                class="btn btn-outline"
-                download
-                >Download CV</a
-              >
-            </div>
 
+              <a
+                href="https://drive.google.com/uc?export=download&id=1HqJalutxqDeGG9RhmZBdZ8oU_0C3a3Sj"
+                class="btn btn-outline"
+              >
+                Download CV
+              </a>
+            </div>
             <div class="hero-stats" id="heroStats">
               <div class="hero-stat">
-                <span class="hero-stat-num" data-count="3">0</span>
+                <span class="hero-stat-num" data-count="3">3</span>
                 <span class="hero-stat-label">Projects</span>
               </div>
               <div class="hero-stat">
-                <span class="hero-stat-num" data-count="3">0</span>
+                <span class="hero-stat-num" data-count="3">3</span>
                 <span class="hero-stat-label">Certificates</span>
               </div>
               <div class="hero-stat">
-                <span class="hero-stat-num" data-count="6">0</span>
+                <span class="hero-stat-num" data-count="6">6</span>
                 <span class="hero-stat-label">Technologies</span>
               </div>
             </div>
@@ -330,32 +334,46 @@
 
       <!-- ========== EDUCATION ========== -->
       <section class="section" id="education">
-        <div class="section-inner">
-          <p class="section-eyebrow fade-up">Academic background</p>
-          <h2 class="section-title fade-up">Education</h2>
+  <div class="section-inner">
+    <p class="section-eyebrow fade-up">Academic Background</p>
+    <h2 class="section-title fade-up">Education</h2>
 
-          <div class="timeline">
-            <div class="timeline-item fade-up">
-              <div class="timeline-dot"></div>
-              <div class="timeline-content">
-                <h3 class="timeline-title">BS Computer Science</h3>
-                <p class="timeline-meta">Expected Graduation: 2028</p>
-              </div>
-              <div class="timeline-content">
-                <h3 class="timeline-title">Intermediate</h3>
-                <p class="timeline-meta">Expected Graduation: 2022 – 2024</p>
-              </div>
-              <div class="timeline-content">
-                <h3 class="timeline-title">Matric (Science)</h3>
-                <p class="timeline-meta">
-                  Expected Graduation: Completed in 2022
-                </p>
-              </div>
-            </div>
-          </div>
+    <div class="timeline">
+
+      <div class="timeline-item fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3 class="timeline-title">BS Computer Science</h3>
+          <p class="timeline-meta">
+            University of Veterinary and Animal Sciences (UVAS), Lahore
+          </p>
+          <p class="timeline-meta">Expected Graduation: 2028</p>
         </div>
-      </section>
+      </div>
 
+      <div class="timeline-item fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          
+          <h3 class="timeline-title">Intermediate (ICS)</h3>
+          <p class="timeline-meta">
+            2022 – 2024
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3 class="timeline-title">Matric (Science)</h3>
+          <p class="timeline-meta">
+            Completed in 2022
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       <!-- ========== CONTACT ========== -->
       <section class="section section-alt" id="contact">
         <div class="section-inner">
@@ -363,7 +381,7 @@
           <h2 class="section-title fade-up">Contact</h2>
           <p class="section-note fade-up">
             Open to Frontend Development internship opportunities — feel free to
-            reach out.
+            reach out.     
           </p>
 
           <div class="contact-grid">
@@ -372,6 +390,15 @@
               <span class="contact-label">Email</span>
               <span class="contact-value">asmirza399@gmail.com</span>
             </a>
+            <div class="contact-card contact-static fade-up">
+              
+              <span class="contact-icon">&#9742;</span>
+              <span class="contact-label">Phone</span>
+
+            <a href="tel:+923004413130" class="contact-value">
+                +92 300 4413130
+            </a>
+            </div>
             <a
               href="https://www.linkedin.com/in/mirza-arslan-sattar-240a89349"
               target="_blank"
@@ -382,18 +409,7 @@
               <span class="contact-label">LinkedIn</span>
               <span class="contact-value"> LinkedIn - Mirza Arslan</span>
             </a>
-            <!-- <a
-              href="https://github.com/MirzaArslan13"
-              target="_blank"
-              rel="noopener"
-              class="contact-card fade-up delay-2"
-            >
-              <span class="contact-icon">&lt;/&gt;</span>
-              <span class="contact-label">GitHub</span>
-              <span class="contact-value"
-                > GitHub - MirzaArslan13</span
-              >
-            </a> -->
+            
             <a
               href="https://github.com/MirzaArslan13"
               target="_blank"
@@ -417,7 +433,8 @@
               <span class="contact-value">@MirzaArslan13</span>
             </a>
             <div class="contact-card contact-static fade-up">
-              <span class="contact-icon">◎</span>
+              
+              <span class="contact-icon">📍</span>
               <span class="contact-label">Location</span>
               <span class="contact-value">Lahore, Pakistan</span>
             </div>

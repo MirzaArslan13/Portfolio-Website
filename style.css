@@ -22,6 +22,20 @@
   --transition: 220ms cubic-bezier(.4,0,.2,1);
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* ============================================================
    RESET
    ============================================================ */
@@ -587,21 +601,55 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
    ============================================================ */
 .timeline {
   position: relative;
-  padding-left: 32px;
+  max-width: 600px;
+  margin-top: 40px;
+  padding-left: 35px;
   border-left: 2px solid var(--border);
-  max-width: 560px;
 }
-.timeline-item { position: relative; padding-bottom: 4px; }
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 45px;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
 .timeline-dot {
   position: absolute;
-  left: -39px; top: 4px;
-  width: 14px; height: 14px;
+  left: -43px;
+  top: 8px;
+
+  width: 16px;
+  height: 16px;
+
   border-radius: 50%;
+
   background: var(--accent);
-  box-shadow: 0 0 0 5px rgba(59,130,246,0.16);
+
+  border: 3px solid var(--background);
+
+  box-shadow: 0 0 0 4px rgba(59,130,246,.20);
 }
-.timeline-title { font-family: var(--font-display); font-size: 19px; font-weight: 600; margin-bottom: 6px; }
-.timeline-meta { color: var(--text-secondary); font-size: 14px; }
+
+.timeline-title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.timeline-meta {
+  font-size: 15px;
+  color: var(--text-secondary);
+  margin-bottom: 5px;
+  line-height: 1.6;
+}
+
+.timeline-content {
+  padding-left: 12px;
+}
 
 /* ============================================================
    CONTACT
