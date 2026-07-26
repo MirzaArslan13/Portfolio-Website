@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Mirza Arslan | Front-End Developer</title>
+
+    <link rel="icon" type="image/png" href=".gitignore/LOGO.png" />
+    <meta
+      name="description"
+      content="Mirza Arslan — Front-End Developer & Computer Science Student. HTML, CSS, JavaScript, learning React."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Scroll progress bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+      <div class="nav-inner">
+        <a href="#home" class="nav-logo">MA<span class="logo-dot">.</span></a>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#home" class="nav-link active" data-nav>Home</a>
+          <a href="#about" class="nav-link" data-nav>About</a>
+          <a href="#skills" class="nav-link" data-nav>Skills</a>
+          <a href="#projects" class="nav-link" data-nav>Projects</a>
+          <a href="#certificates" class="nav-link" data-nav>Certificates</a>
+          <a href="#education" class="nav-link" data-nav>Education</a>
+          <a href="#contact" class="nav-link" data-nav>Contact</a>
+        </nav>
+
+        <a
+          href=".gitignore/Mirza Arslan.pdf"
+          class="btn btn-small btn-primary nav-cta"
+          download
+          >Resume</a
+        >
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ========== HERO ========== -->
+      <section class="hero" id="home">
+        <div class="hero-bg-grid" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <div class="hero-text fade-up">
+            <p class="hero-eyebrow">// Front-end Developer</p>
+            <h1 class="hero-title">Mirza Arslan</h1>
+            <p class="hero-subtitle">
+              Front-End Developer <span class="dot-sep">·</span> Computer
+              Science Student
+            </p>
+            <p class="hero-desc">
+              I build responsive websites using HTML, CSS, and JavaScript.
+              Currently learning React and continuously improving my front-end
+              skills — one component at a time.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a
+                href=".gitignore/Mirza Arslan.pdf"
+                class="btn btn-outline"
+                download
+                >Download CV</a
+              >
+            </div>
+
+            <div class="hero-stats" id="heroStats">
+              <div class="hero-stat">
+                <span class="hero-stat-num" data-count="3">0</span>
+                <span class="hero-stat-label">Projects</span>
+              </div>
+              <div class="hero-stat">
+                <span class="hero-stat-num" data-count="3">0</span>
+                <span class="hero-stat-label">Certificates</span>
+              </div>
+              <div class="hero-stat">
+                <span class="hero-stat-num" data-count="6">0</span>
+                <span class="hero-stat-label">Technologies</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual fade-up delay-1">
+            <div class="editor-window">
+              <div class="editor-titlebar">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span class="editor-filename">about-me.js</span>
+              </div>
+              <pre
+                class="editor-body"
+              ><code id="typedCode"></code><span class="typed-cursor">|</span></pre>
+            </div>
+            <div class="editor-glow" aria-hidden="true"></div>
+          </div>
+        </div>
+
+        <a
+          href="#about"
+          class="scroll-cue"
+          aria-label="Scroll to About section"
+        >
+          <span></span>
+        </a>
+      </section>
+
+      <!-- ========== ABOUT ========== -->
+      <section class="section" id="about">
+        <div class="section-inner">
+          <p class="section-eyebrow fade-up">About</p>
+          <h2 class="section-title fade-up">About Me</h2>
+
+          <div class="about-grid">
+            <p class="about-text fade-up">
+              I'm a BS Computer Science student with a strong interest in
+              <strong>Front-End Development</strong>.
+            </p>
+            <p class="about-text fade-up delay-1">
+              I enjoy creating responsive, user-friendly websites using modern
+              web technologies. I'm currently improving my JavaScript skills and
+              learning React while building practical projects.
+            </p>
+            <p class="about-text fade-up delay-2">
+              My goal is to secure a
+              <strong>Frontend Development Internship</strong>
+              where I can gain real-world experience and continue growing as a
+              developer.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== SKILLS ========== -->
+      <section class="section section-alt" id="skills">
+        <div class="section-inner">
+          <p class="section-eyebrow fade-up">What I work with</p>
+          <h2 class="section-title fade-up">Skills</h2>
+
+          <div class="skills-grid" id="skillsGrid">
+            <div class="skill-card fade-up">
+              <span class="skill-icon">&lt;/&gt;</span>
+              <span class="skill-name">HTML5</span>
+            </div>
+            <div class="skill-card fade-up delay-1">
+              <span class="skill-icon">#</span>
+              <span class="skill-name">CSS3</span>
+            </div>
+            <div class="skill-card fade-up delay-2">
+              <span class="skill-icon">JS</span>
+              <span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-card fade-up skill-learning">
+              <span class="skill-icon">⚛</span>
+              <span class="skill-name">React</span>
+              <span class="skill-badge">Learning</span>
+            </div>
+            <div class="skill-card fade-up delay-1">
+              <span class="skill-icon">Py</span>
+              <span class="skill-name">Python</span>
+            </div>
+            <!-- <div class="skill-card fade-up delay-2">
+          <span class="skill-icon">▢</span>
+          <span class="skill-name">Responsive Design</span>
+        </div> -->
+            <div class="skill-card fade-up">
+              <span class="skill-icon">✓</span>
+              <span class="skill-name">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== PROJECTS ========== -->
+      <section class="section" id="projects">
+        <div class="section-inner">
+          <p class="section-eyebrow fade-up">Selected work</p>
+          <h2 class="section-title fade-up">Projects</h2>
+          <p class="section-note fade-up">
+            More projects are on the way — here's what I've been building.
+          </p>
+
+          <div class="projects-grid">
+            <article class="project-card fade-up">
+              <div class="project-thumb" data-project="portfolio">
+                <div class="thumb-chrome">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="thumb-body">
+                  <div class="thumb-line w-60"></div>
+                  <div class="thumb-line w-40"></div>
+                  <div class="thumb-block"></div>
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Portfolio Website</h3>
+                <p class="project-desc">
+                  Personal portfolio built with HTML CSS and JavaScript.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">HTML</span><span class="tag">CSS</span
+                  ><span class="tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <!-- <a href="#" class="btn btn-small btn-outline">Live Demo</a> -->
+                  <!-- <a href="https://github.com/MirzaArslan13" class="btn btn-small btn-ghost">GitHub</a> -->
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card fade-up delay-1">
+              <div class="project-thumb" data-project="landing">
+                <div class="thumb-chrome">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="thumb-body">
+                  <div class="thumb-line w-40"></div>
+                  <div class="thumb-grid-mini">
+                    <span></span><span></span><span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Responsive Login Page</h3>
+                <p class="project-desc">Modern Login Page UI.</p>
+                <div class="project-tags">
+                  <span class="tag">HTML</span><span class="tag">CSS</span
+                  ><span class="tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <!-- <a href="https://mirzaarslan13.github.io/Responsive-Landing-Page/" class="btn btn-small btn-outline">Live Demo</a> -->
+                  <!-- <a href="https://github.com/MirzaArslan13" class="btn btn-small btn-ghost">GitHub</a> -->
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card fade-up delay-2">
+              <div class="project-thumb" data-project="todo">
+                <div class="thumb-chrome">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="thumb-body">
+                  <div class="thumb-check">
+                    <span class="box checked"></span>
+                    <div class="thumb-line w-60"></div>
+                  </div>
+                  <div class="thumb-check">
+                    <span class="box"></span>
+                    <div class="thumb-line w-40"></div>
+                  </div>
+                  <div class="thumb-check">
+                    <span class="box"></span>
+                    <div class="thumb-line w-60"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">JavaScript To-Do App</h3>
+                <p class="project-desc">
+                  Task management application built with JavaScript.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <!-- <a href="https://mirzaarslan13.github.io/JavaScript-To-Do-App/" class="btn btn-small btn-outline">Live Demo</a> -->
+                  <!-- <a href="https://github.com/MirzaArslan13" class="btn btn-small btn-ghost">GitHub</a> -->
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== CERTIFICATES ========== -->
+      <section class="section section-alt" id="certificates">
+        <div class="section-inner">
+          <p class="section-eyebrow fade-up">Verified learning</p>
+          <h2 class="section-title fade-up">Certificates</h2>
+
+          <div class="cert-grid">
+            <div class="cert-card fade-up">
+              <div class="cert-mark">IBM</div>
+              <div>
+                <h3 class="cert-name">Introducing to HTML, CSS & JavaScript</h3>
+                <p class="cert-issuer">IBM Certificates</p>
+              </div>
+            </div>
+            <div class="cert-card fade-up">
+              <div class="cert-mark">Meta</div>
+              <div>
+                <h3 class="cert-name">
+                  Database Structure & Management with SQL
+                </h3>
+                <p class="cert-issuer">Meta Certificates</p>
+              </div>
+            </div>
+            <div class="cert-card fade-up delay-1">
+              <div class="cert-mark">G</div>
+              <div>
+                <h3 class="cert-name">JavaScript Fundamentals</h3>
+                <p class="cert-issuer">Google Certificates</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== EDUCATION ========== -->
+      <section class="section" id="education">
+        <div class="section-inner">
+          <p class="section-eyebrow fade-up">Academic background</p>
+          <h2 class="section-title fade-up">Education</h2>
+
+          <div class="timeline">
+            <div class="timeline-item fade-up">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">BS Computer Science</h3>
+                <p class="timeline-meta">Expected Graduation: 2028</p>
+              </div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">Intermediate</h3>
+                <p class="timeline-meta">Expected Graduation: 2022 – 2024</p>
+              </div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">Matric (Science)</h3>
+                <p class="timeline-meta">
+                  Expected Graduation: Completed in 2022
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== CONTACT ========== -->
+      <section class="section section-alt" id="contact">
+        <div class="section-inner">
+          <p class="section-eyebrow fade-up">Get in touch</p>
+          <h2 class="section-title fade-up">Contact</h2>
+          <p class="section-note fade-up">
+            Open to Frontend Development internship opportunities — feel free to
+            reach out.
+          </p>
+
+          <div class="contact-grid">
+            <a href="mailto:asmirza399@gmail.com" class="contact-card fade-up">
+              <span class="contact-icon">@</span>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">asmirza399@gmail.com</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mirza-arslan-sattar-240a89349"
+              target="_blank"
+              rel="noopener"
+              class="contact-card fade-up delay-1"
+            >
+              <span class="contact-icon">in</span>
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value"> LinkedIn - Mirza Arslan</span>
+            </a>
+            <!-- <a
+              href="https://github.com/MirzaArslan13"
+              target="_blank"
+              rel="noopener"
+              class="contact-card fade-up delay-2"
+            >
+              <span class="contact-icon">&lt;/&gt;</span>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value"
+                > GitHub - MirzaArslan13</span
+              >
+            </a> -->
+            <a
+              href="https://github.com/MirzaArslan13"
+              target="_blank"
+              rel="noopener"
+              class="contact-card fade-up delay-2"
+            >
+              <span class="contact-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M12 .5C5.73.5.75 5.48.75 11.75c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.1-3.17.69-3.84-1.34-3.84-1.34-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.64 0-1.25.44-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.18 1.17a10.98 10.98 0 0 1 5.79 0c2.2-1.48 3.17-1.17 3.17-1.17.63 1.58.24 2.75.12 3.04.74.8 1.18 1.82 1.18 3.07 0 4.38-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A11.26 11.26 0 0 0 23.25 11.75C23.25 5.48 18.27.5 12 .5Z"
+                  />
+                </svg>
+              </span>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">@MirzaArslan13</span>
+            </a>
+            <div class="contact-card contact-static fade-up">
+              <span class="contact-icon">◎</span>
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Lahore, Pakistan</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <p>© <span id="year"></span> Mirza Arslan. All rights reserved.</p>
+        <p class="footer-sub">Designed and developed by Mirza Arslan</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+      ↑
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
