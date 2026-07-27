@@ -1,33 +1,64 @@
-# 💼 Portfolio Website
+# 💼 Mirza Arslan - Portfolio Website
 
-A modern and responsive personal portfolio website built using HTML, CSS, and JavaScript.
+A modern and responsive personal portfolio website built using **HTML, CSS, and JavaScript**. This portfolio showcases my skills, projects, education, certifications, and contact information as an aspiring Front-End Developer.
 
-## 🚀 Live Demo
+---
 
-Coming Soon
+## 🌐 Live Demo
 
-## 📌 Features
+🔗 ([https://YOUR-VERCEL-LINK.vercel.app](https://mirza-portfolio-puce.vercel.app/)
+
+---
+
+## ✨ Features
 
 - Responsive Design
-- Modern UI
-- About Me
-- Skills
-- Projects
-- Contact Form
+- Modern User Interface
+- About Me Section
+- Skills Section
+- Projects Showcase
+- Education Timeline
+- Certificates Section
+- Contact Information
+- Download Resume Button
+- Smooth Scrolling
+- Mobile Friendly
+
+---
 
 ## 🛠 Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6)
+---
 
-## 📷 Screenshot
+## 📸 Screenshot
 
-(Add a screenshot here later)
+![Portfolio Screenshot](Image/portfolio.png)
+
+---
+
+## 🚀 Getting Started
+
+Clone this repository
+
+   [git Clone](https://github.com/MirzaArslan13/Portfolio-Website.git)
 
 ## 👨‍💻 Author
 
-Mirza Arsalan
+**Mirza Arslan**
 
-GitHub: https://github.com/MirzaArslan13
-LinkedIn: (Add your LinkedIn URL)
+📍 Lahore, Pakistan
+
+💻 GitHub:
+    [github](https://github.com/MirzaArslan13)
+
+🔗 LinkedIn:
+    [Linkdin](https://www.linkedin.com/in/mirza-arslan-sattar-240a89349)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
