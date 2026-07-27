@@ -6,7 +6,7 @@ A modern and responsive personal portfolio website built using **HTML, CSS, and 
 
 ## 🌐 Live Demo
 
-🔗 ([https://YOUR-VERCEL-LINK.vercel.app](https://mirza-portfolio-puce.vercel.app/)
+🔗 [https://YOUR-VERCEL-LINK.vercel.app](https://mirza-portfolio-puce.vercel.app/)
 
 ---
 
@@ -43,7 +43,7 @@ A modern and responsive personal portfolio website built using **HTML, CSS, and 
 
 Clone this repository
 
-   [git Clone](https://github.com/MirzaArslan13/Portfolio-Website.git)
+   [Git Clone](https://github.com/MirzaArslan13/Portfolio-Website.git)
 
 ## 👨‍💻 Author
 
@@ -52,10 +52,10 @@ Clone this repository
 📍 Lahore, Pakistan
 
 💻 GitHub:
-    [github](https://github.com/MirzaArslan13)
+    [Github](https://github.com/MirzaArslan13)
 
 🔗 LinkedIn:
-    [Linkdin](https://www.linkedin.com/in/mirza-arslan-sattar-240a89349)
+    [Linkedin](https://www.linkedin.com/in/mirza-arslan-sattar-240a89349)
 
 ---
 
